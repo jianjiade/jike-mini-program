@@ -1,0 +1,26 @@
+<view class="profixcontainer">
+  <view class="profilebg" style="background-image: url('{{profile.backgroundImage.picUrl}}');">
+    <view class="profilebginner">
+
+    </view>
+  </view>
+  <view class='profileinfo'>
+    <view>
+      <image class='profileavatar' src="{{profile.profileImageUrl}}"></image>
+    </view>
+    <view>
+      <text class='profileUsername'>{{profile.screenName}}</text>
+    </view>
+    <view>
+      <text class='briefIntro'>{{profile.briefIntro}}</text>
+    </view>
+    <view class='itemview'>
+      <text class='gender firstItem'>{{profile.gender ==='MALE'?'♂':'♀'}}</text>
+      <text class='gender'>中国</text>
+      <text class='gender'>{{profile.industry}}</text>
+      <text class='gender'>{{profile.zodiac}}</text>
+    </view>
+    
+  </view>
+  
+</view>

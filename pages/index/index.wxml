@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <canvas style="width: 200px; height: 200px;" canvas-id="myQrcode"></canvas>
+  </view>
+</view>
